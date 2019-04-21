@@ -1,0 +1,184 @@
+body {
+  background-image: url("https://scm-assets.constant.co/scm/unilever/1db348501df1238f872479d225e08c34/7b29b60f-7f02-4409-8f11-70eb3ac8222b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+ 
+  background-color: none;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: "verdana";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h1{
+font-family: "verdana";
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.content {
+	background-color: #fffa;
+	padding: 25px;
+	margin: 25px;
+	border: none;
+}
+div {
+  
+  
+  
+}
+h2{
+font-family: "helvetica";
+font-size: 36px;
+margin: 1px 50px 7px 100px;
+}
+
+table{
+margin: 25px 50px 75px 100px;}
+
+p{
+font-size: 24px;
+text-align: justify;
+font-family: "helvetica";
+padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active{
+  background-color: #052b01;
+}
+.demo:hover {
+  opacity: 1;
+}
+
+.footer{
+    padding: 40px;
+  text-align: center;
+ 
+  background-color: white;
+  font-size: 30px;
+}​
